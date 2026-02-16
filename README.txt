@@ -26,7 +26,7 @@ ATTENZIONE: Controllare che MainComponent sia importata su app.ts se non lo ha f
 
 TASK: 
 Creare 3 componenti: page 1, page 2 e page 3. Grazie a RouterOutlet devono essere navigabili dalla barra laterale.
-Testare altre schematics come la transform.
+Testare altre schematics.
 
 - Ho creato i componenti page1, page2 e page3 usando il comando: ng generate component pages/page1, ng generate component pages/page2, ng generate component pages/page3.
 
@@ -48,3 +48,17 @@ RICORDA:
  Inoltre, routerLink è integrato con il sistema di routing di Angular, consentendo una gestione più semplice delle rotte e dei parametri.
 
  Perché è importante usare RouterOutlet? Perché RouterOutlet funge da segnaposto per il contenuto delle pagine che vengono caricate dinamicamente in base alla rotta selezionata. Senza RouterOutlet, non sarebbe possibile visualizzare il contenuto delle pagine in modo dinamico, e l'applicazione non sarebbe in grado di gestire le rotte in modo efficace.
+
+
+HO PROVATO ALTRI COMPONENTI SCHEMATIC:
+Address form schematic: ng generate @angular/material:address-form <component-name>
+Io ho inserito ng generate @angular/material:address-form /components/main2
+
+Table schematic:  ng generate @angular/material:table <component-name>
+Io ho inserito ng generate @angular/material:table /components/main3
+
+Tree schematic:  ng generate @angular/material:tree <component-name>
+Io ho inserito ng generate @angular/material:tree components/main4
+
+Drag and Drop schematic:  ng generate @angular/cdk:drag-drop <component-name>
+Io ho inserito ng generate @angular/cdk:drag-drop components/main5
