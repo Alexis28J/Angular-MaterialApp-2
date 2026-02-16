@@ -24,5 +24,8 @@ ATTENZIONE: Controllare che MainComponent sia importata su app.ts se non lo ha f
 - su main.component.html, ho messo <router-outlet></router-outlet> e automaticamente RouterOutlet  è stato importato su main.component.ts.
 
 
+TASK: 
+Creare 3 componenti: page 1, page 2 e page 3. Grazie a RouterOutlet devono essere navigabili dalla barra laterale.
+Testare altre schematics come la transform.
 
 
